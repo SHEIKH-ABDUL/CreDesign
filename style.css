@@ -8,7 +8,32 @@
   width: 1340px;
   margin: 0 auto;
 }
-
+.subheading{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.round{
+ width: 16px;
+ height: 16px;
+ border-radius: 50%;
+ border: 1px solid #101010;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.subheading h6{
+  font-size: 16px;
+  color: #101010;
+  line-height: 27px;
+  font-weight: 400;
+}
+.round_inner{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid #101010;
+}
 /* -- ----------- Navbar Start Here --------- -- */
 #navbar{
   background: #fff;
@@ -19,7 +44,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.nav_btn{
+.common_btn{
   padding: 15px 32px;
   background: #FF6B00;
   border-radius: 6px;
@@ -44,3 +69,45 @@
   text-transform: capitalize;
 }
 /* -- ----------- Navbar End Here --------- -- */
+
+
+/* -- ----------- Banner Start Here --------- -- */
+#banner{
+  background: linear-gradient(256.24deg, rgba(255, 195, 152, 0.2) 26.56%, rgba(255, 234, 190, 0.3) 100%);
+}
+.banner_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner_content{
+  width: 678px;
+
+}
+.banner_img{
+  width: 606px;
+  height: 850px;
+  overflow: hidden;
+}
+.banner_img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.banner_content h1{
+  font-size: 70px;
+  font-weight: 700;
+  color: #101010;
+  line-height: 95px;
+  margin-top: 10px;
+}
+.banner_content p{
+margin-top: 46px;
+ max-width: 649px;
+ color: #606060;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 30px;
+ margin-bottom: 50px;
+}
+/* -- ----------- Banner End Here --------- -- */
