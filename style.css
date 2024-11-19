@@ -302,6 +302,7 @@
 #resume {
   background: #FFF5EF;
   padding: 68px 0;
+  margin-bottom: 130px;
 }
 
 .resume_wrapper {
@@ -309,6 +310,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 24px;
+
 }
 
 .resume_item .resume_title {
@@ -321,7 +323,7 @@
 .resume_item_wrapper {
   margin-top: 24px;
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
 }
 
 .resume_item .resume_card {
@@ -346,13 +348,15 @@
   padding-top: 10px;
   display: inline-block;
 }
-.resume_item .resume_card p{
+
+.resume_item .resume_card p {
   color: #606060;
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
   margin-top: 16px;
 }
+
 /* -- ----------- Resume  End Here --------- -- */
 
 
@@ -362,23 +366,84 @@
   margin: 130px 0;
 }
 
-.portfolio_wrapper{
+.portfolio_wrapper {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: space-between;
 }
-.portfolio_item{
+
+.portfolio_item {
   width: 430px;
   height: 514px;
   border-radius: 6px;
   overflow: hidden;
- background: red;
+  background: red;
 }
-.portfolio_item img{
+
+.portfolio_item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 /* -- ----------- Portfolio  End Here --------- -- */
+
+/* -- -----------  Start Here --------- -- */
+#testimonial {
+  margin-top: 130px;
+  margin-bottom: 180px;
+}
+.testimonial_wrapper{
+  margin-top: 42px;
+  display: flex;
+  justify-content: space-between;
+}
+.testimonial_item{
+  background: rgba(255, 245, 239, 0.5);
+  border-radius: 8px;
+  padding: 40px 30px 62px 30px;
+  width: 424px;
+  transition: all linear 0.3s;
+}
+.testimonial_item:hover{
+  background: #FFF5EF;
+  
+}
+.testimonial_item_topper{
+  display: flex;
+  column-gap: 25px;
+  align-items: center;
+}
+.testimonial_item_topper .client_img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.testimonial_item_topper img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.client_info h5{
+  color: #101010;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+}
+.client_info span{
+  color: #606060;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.testimonial_item p{
+  color: #606060;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 20px;
+}
+/* -- ----------- Testimonial  End Here --------- -- */
